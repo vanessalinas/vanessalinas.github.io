@@ -81,9 +81,17 @@ figure {
 
 }
 
-video {
+.lapse {
   max-width: 100%;
   height: auto;
+
+}
+
+.ardisplay {
+	display: block;
+	width: auto;
+	margin: 0 auto; 
+	text-align: center;
 
 }
 
@@ -92,11 +100,20 @@ img {
 	max-width: 100%;
 }
 
-iframe{
-
+.clickanddrag {
+	width: 100%;
+	float: left;
+	padding: 80px 0 0px;
+	text-align: center;
 }
-
-
+.clickanddrag h2 {
+	margin: 0;
+	color: #dadada;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 35px;
+	text-transform: capitalize;
+}
 
 .wp-caption.alignleft,
 .wp-caption.alignnone {width: 100%;}
@@ -2077,7 +2094,7 @@ body.tg-homev5 {
 .tg-workdetailvthree .tg-description p {
 	margin: 0;
 	font-size: 18px;
-	line-height: 30px;
+	line-height: 35px;
 }
 .tg-designconcept {
 	width: 100%;
